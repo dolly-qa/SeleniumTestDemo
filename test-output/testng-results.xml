@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-09T17:42:46Z" name="CheckBoxTest" finished-at="2020-05-09T17:43:03Z" duration-ms="17825">
+    <groups>
+    </groups>
+    <test started-at="2020-05-09T17:42:46Z" name="CheckBoxTestTest-WithProfile" finished-at="2020-05-09T17:42:55Z" duration-ms="9325">
+      <class name="com.herokuapp.theinternet.CheckBoxPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@673fdbce]" started-at="2020-05-09T17:42:46Z" name="setUp" finished-at="2020-05-09T17:42:51Z" duration-ms="5497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.CheckBoxPageTest.checkboxclick()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ChromeProfile]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@545f80bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkboxclick()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@673fdbce]" started-at="2020-05-09T17:42:51Z" name="checkboxclick" finished-at="2020-05-09T17:42:55Z" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxclick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@673fdbce]" started-at="2020-05-09T17:42:55Z" name="tearDown" finished-at="2020-05-09T17:42:55Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.CheckBoxPageTest -->
+    </test> <!-- CheckBoxTestTest-WithProfile -->
+    <test started-at="2020-05-09T17:42:55Z" name="CheckBoxTestTest-WithOutProfile" finished-at="2020-05-09T17:43:03Z" duration-ms="8438">
+      <class name="com.herokuapp.theinternet.CheckBoxPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@55de24cc]" started-at="2020-05-09T17:42:55Z" name="setUp" finished-at="2020-05-09T17:43:00Z" duration-ms="4530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.CheckBoxPageTest.checkboxclick()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@66f66866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkboxclick()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@55de24cc]" started-at="2020-05-09T17:43:00Z" name="checkboxclick" finished-at="2020-05-09T17:43:03Z" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxclick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@55de24cc]" started-at="2020-05-09T17:43:03Z" name="tearDown" finished-at="2020-05-09T17:43:03Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.CheckBoxPageTest -->
+    </test> <!-- CheckBoxTestTest-WithOutProfile -->
+  </suite> <!-- CheckBoxTest -->
+</testng-results>

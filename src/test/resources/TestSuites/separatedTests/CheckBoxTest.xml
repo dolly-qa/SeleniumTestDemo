@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CheckBoxTest" verbose="1">
+	<listeners>
+		<listener class-name="com.pom.base.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="CheckBoxTestTest-WithProfile">
+		<parameter name="chromeProfile" value="ChromeProfile"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckBoxPageTest">
+
+			</class>
+		</classes>
+	</test>
+
+	<test name="CheckBoxTestTest-WithOutProfile">
+
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckBoxPageTest">
+
+			</class>
+		</classes>
+	</test>
+</suite>

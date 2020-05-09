@@ -1,0 +1,67 @@
+2020/04/01-14:45:32.089 77a0f Reusing MANIFEST /Users/maharshi/Library/Application Support/Google/Chrome/Default/IndexedDB/https_smaccrmsf-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/01-14:45:33.131 8b07b Level-0 table #5: started
+2020/04/01-14:45:33.136 8b07b Level-0 table #5: 9670 bytes OK
+2020/04/01-14:45:33.142 8b07b Delete type=0 #3
+2020/04/01-14:45:33.143 8b07b Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/04/01-14:45:39.517 8b07b Level-0 table #7: started
+2020/04/01-14:45:39.555 8b07b Level-0 table #7: 4177173 bytes OK
+2020/04/01-14:45:39.565 8b07b Delete type=0 #4
+2020/04/01-14:48:27.388 8b07b Level-0 table #9: started
+2020/04/01-14:48:27.440 8b07b Level-0 table #9: 4429199 bytes OK
+2020/04/01-14:48:27.449 8b07b Delete type=0 #6
+2020/04/01-14:48:50.507 8b07b Level-0 table #11: started
+2020/04/01-14:48:50.559 8b07b Level-0 table #11: 4348104 bytes OK
+2020/04/01-14:48:50.566 8b07b Delete type=0 #8
+2020/04/01-14:48:59.280 8b07b Level-0 table #13: started
+2020/04/01-14:48:59.321 8b07b Level-0 table #13: 4117182 bytes OK
+2020/04/01-14:48:59.328 8b07b Delete type=0 #10
+2020/04/01-14:49:09.127 8b07b Level-0 table #15: started
+2020/04/01-14:49:09.177 8b07b Level-0 table #15: 4412668 bytes OK
+2020/04/01-14:49:09.183 8b07b Delete type=0 #12
+2020/04/01-14:49:09.184 8b07b Compacting 4@0 + 1@1 files
+2020/04/01-14:49:09.230 8b07b Generated table #16@0: 1102 keys, 934625 bytes
+2020/04/01-14:49:09.230 8b07b Compacted 4@0 + 1@1 files => 934625 bytes
+2020/04/01-14:49:09.242 8b07b compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/04/01-14:49:09.242 8b07b Delete type=2 #7
+2020/04/01-14:49:09.242 8b07b Delete type=2 #9
+2020/04/01-14:49:09.242 8b07b Delete type=2 #11
+2020/04/01-14:49:09.242 8b07b Delete type=2 #13
+2020/04/01-14:49:09.242 8b07b Delete type=2 #15
+2020/04/01-14:52:00.324 8b07b Compacting 1@1 + 1@2 files
+2020/04/01-14:52:00.354 8b07b Generated table #17@1: 399 keys, 926933 bytes
+2020/04/01-14:52:00.354 8b07b Compacted 1@1 + 1@2 files => 926933 bytes
+2020/04/01-14:52:00.360 8b07b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/01-14:52:00.360 8b07b Delete type=2 #5
+2020/04/01-14:52:00.360 8b07b Delete type=2 #16
+2020/04/01-14:52:02.434 8b07b Level-0 table #19: started
+2020/04/01-14:52:02.472 8b07b Level-0 table #19: 4282153 bytes OK
+2020/04/01-14:52:02.478 8b07b Delete type=0 #14
+2020/04/01-14:59:12.240 8b07b Level-0 table #21: started
+2020/04/01-14:59:12.281 8b07b Level-0 table #21: 4199919 bytes OK
+2020/04/01-14:59:12.288 8b07b Delete type=0 #18
+2020/04/01-15:08:53.462 8b07b Compacting 1@0 + 1@1 files
+2020/04/01-15:08:53.504 8b07b Generated table #22@0: 435 keys, 708496 bytes
+2020/04/01-15:08:53.504 8b07b Compacted 1@0 + 1@1 files => 708496 bytes
+2020/04/01-15:08:53.512 8b07b compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/04/01-15:08:53.513 8b07b Delete type=2 #19
+2020/04/01-15:08:53.513 8b07b Delete type=2 #21
+2020/04/01-15:11:32.636 8b07b Level-0 table #24: started
+2020/04/01-15:11:32.680 8b07b Level-0 table #24: 4292819 bytes OK
+2020/04/01-15:11:32.687 8b07b Delete type=0 #20
+2020/04/01-15:27:09.698 8b07b Level-0 table #26: started
+2020/04/01-15:27:09.743 8b07b Level-0 table #26: 4407588 bytes OK
+2020/04/01-15:27:09.749 8b07b Delete type=0 #23
+2020/04/01-15:31:19.614 8b07b Level-0 table #28: started
+2020/04/01-15:31:19.661 8b07b Level-0 table #28: 3906756 bytes OK
+2020/04/01-15:31:19.666 8b07b Delete type=0 #25
+2020/04/01-15:31:32.324 8b07b Compacting 3@0 + 1@1 files
+2020/04/01-15:31:32.348 8b07b Generated table #29@0: 1323 keys, 669760 bytes
+2020/04/01-15:31:32.349 8b07b Compacted 3@0 + 1@1 files => 669760 bytes
+2020/04/01-15:31:32.357 8b07b compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/04/01-15:31:32.357 8b07b Delete type=2 #22
+2020/04/01-15:31:32.357 8b07b Delete type=2 #24
+2020/04/01-15:31:32.357 8b07b Delete type=2 #26
+2020/04/01-15:31:32.357 8b07b Delete type=2 #28
+2020/04/01-15:31:32.661 8b07b Level-0 table #31: started
+2020/04/01-15:31:32.704 8b07b Level-0 table #31: 4030382 bytes OK
+2020/04/01-15:31:32.710 8b07b Delete type=0 #27

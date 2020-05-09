@@ -1,0 +1,6 @@
+2020/03/28-17:57:50.043 6f667 Reusing MANIFEST /Users/maharshi/Library/Application Support/Google/Chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/03/28-17:57:50.043 6f667 Recovering log #3
+2020/03/28-17:57:50.043 6f667 Reusing old log /Users/maharshi/Library/Application Support/Google/Chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2020/03/31-17:16:45.438 8b07b Level-0 table #5: started
+2020/03/31-17:16:45.520 8b07b Level-0 table #5: 1549912 bytes OK
+2020/03/31-17:16:45.537 8b07b Delete type=0 #3

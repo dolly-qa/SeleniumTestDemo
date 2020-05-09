@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CheckBoxTest" verbose="1">
+
+	<test name="CheckBoxTestTest-CH-HeadLess">
+	<parameter name="browser" value="chromeheadless"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckBoxPageTest">
+				
+			</class>
+		</classes>
+	</test>
+
+	<test name="CheckBoxTestTest-FF-HeadLess">
+	<parameter name="browser" value="firefoxheadless"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckBoxPageTest">
+				
+			</class>
+		</classes>
+	</test>
+	<test name="CheckBoxTestTest-HTmlUnit">
+	<parameter name="browser" value="htmlunit"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.CheckBoxPageTest">
+				
+			</class>
+		</classes>
+	</test>
+<!-- 	<test name="CheckBoxTestTest-Phantomsjs"> -->
+<!-- 	<parameter name="browser" value="phantomjs"></parameter> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.herokuapp.theinternet.CheckBoxPageTest"> -->
+				
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>

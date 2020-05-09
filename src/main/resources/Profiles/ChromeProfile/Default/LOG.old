@@ -1,0 +1,27 @@
+2020/02/23-14:54:10.644 7803 Delete type=3 #1
+2020/02/28-16:05:00.396 277db Level-0 table #5: started
+2020/02/28-16:05:00.420 277db Level-0 table #5: 7963 bytes OK
+2020/02/28-16:05:00.428 277db Delete type=0 #3
+2020/03/06-09:42:51.688 277db Level-0 table #7: started
+2020/03/06-09:42:51.706 277db Level-0 table #7: 18178 bytes OK
+2020/03/06-09:42:51.715 277db Delete type=0 #4
+2020/03/06-09:43:10.237 277db Level-0 table #9: started
+2020/03/06-09:43:10.267 277db Level-0 table #9: 22431 bytes OK
+2020/03/06-09:43:10.274 277db Delete type=0 #6
+2020/03/07-15:58:01.410 277db Level-0 table #11: started
+2020/03/07-15:58:01.422 277db Level-0 table #11: 18091 bytes OK
+2020/03/07-15:58:01.430 277db Delete type=0 #8
+2020/03/08-16:13:04.691 277db Level-0 table #13: started
+2020/03/08-16:13:04.703 277db Level-0 table #13: 10006 bytes OK
+2020/03/08-16:13:04.708 277db Delete type=0 #10
+2020/03/08-17:54:41.789 277db Level-0 table #15: started
+2020/03/08-17:54:41.804 277db Level-0 table #15: 9158 bytes OK
+2020/03/08-17:54:41.831 277db Compacting 4@0 + 1@1 files
+2020/03/08-17:54:41.856 277db Generated table #16@0: 19 keys, 7807 bytes
+2020/03/08-17:54:41.856 277db Compacted 4@0 + 1@1 files => 7807 bytes
+2020/03/08-17:54:41.865 277db compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/08-17:54:41.866 277db Delete type=2 #7
+2020/03/08-17:54:41.866 277db Delete type=2 #9
+2020/03/08-17:54:41.866 277db Delete type=2 #11
+2020/03/08-17:54:41.866 277db Delete type=2 #13
+2020/03/08-17:54:41.866 277db Delete type=2 #15
