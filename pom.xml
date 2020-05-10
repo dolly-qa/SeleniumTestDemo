@@ -95,7 +95,11 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration> <suiteXmlFiles> <suiteXmlFile>src/test/resources/TestSuites/separatedTests/CheckBoxTest.xml</suiteXmlFile> 
+<<<<<<< HEAD
 					</suiteXmlFiles> </configuration> 
+=======
+					</suiteXmlFiles> </configuration>
+>>>>>>> 24f590df6c0f52e8352059f343c794ac5a67ccb3
 			</plugin>
 		</plugins>
 
