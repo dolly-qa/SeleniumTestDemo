@@ -19,8 +19,7 @@ public class CsvDataProvider {
 	public static Iterator<Object[]> csvReader(Method method) {
 		List<Object[]> list = new ArrayList<Object[]>();
 		String pathname = "src" + File.separator + "test" + File.separator + "resources" + File.separator
-				+ "DataProvider" + File.separator + method.getDeclaringClass().getSimpleName() + File.separator
-				+ method.getName() + ".csv";
+				+ "DataProvider" + File.separator + "NegativeLogintests" + File.separator + "negativeLoginTest.csv";
 		File file = new File(pathname);
 		try {
 			CSVReader reader = new CSVReader(new FileReader(file));

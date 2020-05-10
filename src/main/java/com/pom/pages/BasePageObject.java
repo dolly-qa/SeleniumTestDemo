@@ -46,7 +46,7 @@ public class BasePageObject {
 	}
 
 	/** Type given text into element with given locator */
-	protected void type(String text, By locator) {
+	public void type(String text, By locator) {
 		waitForVisibilityOf(locator, 5);
 		find(locator).sendKeys(text);
 	}

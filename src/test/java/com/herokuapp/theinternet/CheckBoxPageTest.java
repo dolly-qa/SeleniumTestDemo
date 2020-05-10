@@ -16,7 +16,7 @@ import com.pom.pages.WelcomePage;
 
 @Test
 public class CheckBoxPageTest extends TestUtils{
-	
+	//CheckBox Testing
 	public void checkboxclick() {
 		WelcomePage basePage = new WelcomePage(driver, log);
 		basePage.openPage();
