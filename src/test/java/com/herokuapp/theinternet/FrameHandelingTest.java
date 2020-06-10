@@ -1,11 +1,9 @@
 package com.herokuapp.theinternet;
 
-import com.pom.pages.FrameHandeling;
-
 import org.testng.annotations.Test;
 
-
 import com.pom.base.TestUtils;
+import com.pom.pages.FrameHandeling;
 import com.pom.pages.WelcomePage;
 
 public class FrameHandelingTest extends TestUtils{

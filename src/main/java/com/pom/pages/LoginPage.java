@@ -1,11 +1,8 @@
 package com.pom.pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import net.bytebuddy.implementation.bind.annotation.Super;
-
-import org.apache.logging.log4j.Logger;
 public class LoginPage extends BasePageObject{
 
 //	private WebDriver driver;

@@ -3,9 +3,6 @@ package com.pom.pages;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import com.pom.pages.BasePageObject;
 
 public class FrameHandeling extends BasePageObject {
 	private By frameLocator = By.tagName("iframe");

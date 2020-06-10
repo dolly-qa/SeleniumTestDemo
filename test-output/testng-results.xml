@@ -2,47 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-10T17:30:50Z" name="Default suite" finished-at="2020-05-10T17:31:00Z" duration-ms="9327">
+  <suite started-at="2020-06-10T08:50:07Z" name="Default suite" finished-at="2020-06-10T08:50:18Z" duration-ms="11248">
     <groups>
     </groups>
-    <test started-at="2020-05-10T17:30:50Z" name="Default test" finished-at="2020-05-10T17:31:00Z" duration-ms="9327">
-      <class name="com.herokuapp.theinternet.CheckBoxPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@4d1bf319]" started-at="2020-05-10T17:30:51Z" name="setUp" finished-at="2020-05-10T17:30:56Z" duration-ms="5259" status="PASS">
+    <test started-at="2020-06-10T08:50:07Z" name="Default test" finished-at="2020-06-10T08:50:18Z" duration-ms="11248">
+      <class name="com.herokuapp.theinternet.PositiveLoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.PositiveLoginTests@5c80cf32]" started-at="2020-06-10T08:50:07Z" name="setUp" finished-at="2020-06-10T08:50:14Z" duration-ms="6747" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.herokuapp.theinternet.CheckBoxPageTest.checkboxclick()]]>
+                <![CDATA[public void com.herokuapp.theinternet.PositiveLoginTests.PositiveLoginTest(java.util.Map)]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
-              <value is-null="true"/>
-            </param>
-            <param index="3">
-              <value is-null="true"/>
-            </param>
-            <param index="4">
               <value>
-                <![CDATA[org.testng.TestRunner@3b6c624]]>
+                <![CDATA[org.testng.TestRunner@6b5f8707]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkboxclick()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@4d1bf319]" started-at="2020-05-10T17:30:56Z" name="checkboxclick" finished-at="2020-05-10T17:31:00Z" duration-ms="3916" status="PASS">
+        <test-method signature="PositiveLoginTest(java.util.Map)[pri:1, instance:com.herokuapp.theinternet.PositiveLoginTests@5c80cf32]" started-at="2020-06-10T08:50:14Z" name="PositiveLoginTest" data-provider="csvPositiveReader" finished-at="2020-06-10T08:50:16Z" duration-ms="2828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, description=, password=SuperSecretPassword!, userName=tomsmith, message=You are login to secure Area!}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkboxclick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.CheckBoxPageTest@4d1bf319]" started-at="2020-05-10T17:31:00Z" name="tearDown" finished-at="2020-05-10T17:31:00Z" duration-ms="86" status="PASS">
+        </test-method> <!-- PositiveLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.PositiveLoginTests@5c80cf32]" started-at="2020-06-10T08:50:16Z" name="tearDown" finished-at="2020-06-10T08:50:18Z" duration-ms="1594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.herokuapp.theinternet.CheckBoxPageTest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveLoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

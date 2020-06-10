@@ -1,7 +1,5 @@
 package com.pom.base;
 
-import org.apache.logging.log4j.Logger;
-import org.testng.ITestListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;

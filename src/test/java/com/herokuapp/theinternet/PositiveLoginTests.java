@@ -1,46 +1,43 @@
 package com.herokuapp.theinternet;
 
-import java.util.Arrays;
 import java.util.Map;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pom.base.CsvPositiveReader;
-//import com.pom.base.CsvPositiveReader;
-import com.pom.base.CsvReaderPractise;
-
 import com.pom.base.TestUtils;
 import com.pom.pages.LoginPage;
-import com.pom.pages.WelcomePage;
 import com.pom.pages.SecureAreaPage;
+import com.pom.pages.WelcomePage;
 
 public class PositiveLoginTests extends TestUtils{
 	
-	/*
-	 * @Test(priority=1,dataProvider = "csvPositiveReader", dataProviderClass =
-	 * CsvPositiveReader.class)
-	 * 
-	 * public void PositiveLoginTest(Map<String, String> testData ) {
-	 * 
-	 * String no=testData.get("no"); String userName=testData.get("userName");
-	 * String password=testData.get("password"); String
-	 * message=testData.get("message"); String
-	 * description=testData.get("description");
-	 * 
-	 * log.info("Starting positiveLogInTest #" + no + " for " + description);
-	 * 
-	 * WelcomePage welcomePage = new WelcomePage(driver, log);
-	 * welcomePage.openPage(); LoginPage loginPage =
-	 * welcomePage.authenticationClick(); secureAreaPage securePage =
-	 * loginPage.logIn(userName, password); String actualUrl =
-	 * securePage.getPageUrl(); String expectedUrl =
-	 * "http://the-internet.herokuapp.com/secure"; Assert.assertEquals(actualUrl,
-	 * expectedUrl,"Acctual url does not match Expected url");
-	 * System.out.println("Url matches"); }
-	 * 
-	 * 
-	 */
+	
+	  @Test(priority=1,dataProvider = "csvPositiveReader", dataProviderClass =
+	  CsvPositiveReader.class)
+	  
+	  public void PositiveLoginTest(Map<String, String> testData ) {
+	  
+	  String no=testData.get("no"); String userName=testData.get("userName");
+	  String password=testData.get("password"); String
+	  message=testData.get("message"); String
+	  description=testData.get("description");
+	  
+	  log.info("Starting positiveLogInTest #" + no + " for " + description);
+	  
+	  WelcomePage welcomePage = new WelcomePage(driver, log);
+	  welcomePage.openPage(); 
+	  LoginPage loginPage = welcomePage.clickFormAuthenticationLink(); 
+	  SecureAreaPage securePage = loginPage.logIn(userName, password);
+	  String actualUrl = securePage.getPageUrl(); 
+	  String expectedUrl = "http://the-internet.herokuapp.com/secure"; 
+	  Assert.assertEquals(actualUrl,expectedUrl,"Acctual url does not match Expected url");
+	  System.out.println("Url matches");
+	  }
+	  
+	  
+	 
 			//----------
 		  //String expectedMsg = "Your username is invalid!"; 
 //		  loginPage.waitForErrorMessage();
@@ -70,7 +67,7 @@ public class PositiveLoginTests extends TestUtils{
 	 * expectedUrl,"Acctual url does not match Expected url");
 	 * System.out.println("Url matches"); }
 	 */
-@Test(priority=3,dataProvider = "data", dataProviderClass = DataProviderClass.class)
+//@Test(priority=3,dataProvider = "data", dataProviderClass = DataProviderClass.class)
 
 public void PositiveLoginTest2(String username, String password) {
 	  

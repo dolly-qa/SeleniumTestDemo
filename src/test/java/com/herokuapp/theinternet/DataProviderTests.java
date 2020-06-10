@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DataProviderTests {
+	
 	WebDriver driver;
 	protected By chooseFile = By.id("file-upload");
 	protected By uploadButton = By.id("file-submit");
@@ -15,6 +16,7 @@ public class DataProviderTests {
 	//Two way to use DataProvider----One is here other is in Example DataProviderTest2
 	@Test(dataProvider = "files", dataProviderClass = DataProviderClass.class)
 	public void dataProviderTest(int i, String name) {
+
 		
 		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
 		
@@ -32,11 +34,16 @@ public class DataProviderTests {
 		driver.quit();
 	}
 	
-	protected void sleep(long millis) {
+	
+protected void sleep(long millis) {
+
 		try {
 			Thread.sleep(millis);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
+
+
+
 }

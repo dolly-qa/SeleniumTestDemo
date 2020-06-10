@@ -5,7 +5,7 @@
     <classes>
       <class name="com.herokuapp.theinternet.NegativeLogInTests">
         <methods>
-          <include name="negativeLogInTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="negativeLogInTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

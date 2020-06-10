@@ -4,15 +4,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import com.opencsv.CSVReader;
-import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
+
+import com.opencsv.CSVReader;
 
 public class CsvDataProvider {
 	@DataProvider(name = "csvReader")

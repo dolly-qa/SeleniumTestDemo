@@ -1,5 +1,10 @@
 package com.pom.pages;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -11,13 +16,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.awt.Frame;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-
-import org.apache.logging.log4j.Logger;
 
 public class BasePageObject {
 

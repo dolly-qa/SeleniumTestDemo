@@ -72,7 +72,7 @@ public class CsvPositiveReader {
 		//public static Iterator<Object[]> csvPositiveReader(){
 		public Iterator<Object[]> csvPositiveReader(){
 			List<Object[]> list = new ArrayList<Object[]>();
-			String path = "/Users/maharshi/eclipse-workspace/selenium-for-beginner/src/test/resources/DataProvider/PositiveLoginTests/PositiveLoginTest.csv";
+			String path = "/Users/maharshi/eclipse-workspace/seleniumProject/src/test/resources/DataProvider/PositiveLoginTests/PositiveLoginTest.csv";
 			File file = new File(path);
 			try {
 				CSVReader csvReader = new CSVReader(new FileReader(file));

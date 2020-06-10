@@ -1,17 +1,9 @@
 package com.herokuapp.theinternet;
 
-import java.util.List;
-
-import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.logging.LogEntry;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import com.pom.base.TestUtils;
-import com.pom.base.BaseTest;
 import com.pom.pages.DropDownPage;
-import com.pom.pages.JSErrorPage;
 import com.pom.pages.WelcomePage;
 
 public class DropDownTest extends TestUtils {

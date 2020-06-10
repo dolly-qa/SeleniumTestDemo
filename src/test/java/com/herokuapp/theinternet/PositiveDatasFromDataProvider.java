@@ -1,16 +1,12 @@
 package com.herokuapp.theinternet;
 
-import java.util.Map;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.pom.base.CsvPositiveReader;
-
 import com.pom.base.TestUtils;
 import com.pom.pages.LoginPage;
-import com.pom.pages.WelcomePage;
 import com.pom.pages.SecureAreaPage;
+import com.pom.pages.WelcomePage;
 
 public class PositiveDatasFromDataProvider extends TestUtils{
 @Test(priority=1,dataProvider = "data", dataProviderClass = DataProviderClass.class)
